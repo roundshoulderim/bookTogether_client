@@ -1,0 +1,119 @@
+.book-detail-area {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  line-height: 2;
+}
+
+.book-cover {
+  width: 100%;
+  height: 260px;
+  background-color: thistle;
+}
+
+.book-detail-book-title b {
+  padding: 0px 30px;
+  font-size: 28px;
+  letter-spacing: 0.8px;
+  word-spacing: 0.6px;
+  line-height: 1.6;
+  font-family: 'Nanum Myeongjo', serif;
+  color: #363636;
+}
+
+.bookInfo-wrap {
+  width: 54%;
+  margin-top: -140px;
+  padding: 0px 20px 50px 0;
+  letter-spacing: 0px;
+  word-spacing: 0.6px;
+  line-height: 1.6;
+  font-weight: 300;
+  color: black;
+}
+
+
+.book-reveiw {
+  width: 60%;
+  padding: 60px 20px 60px;
+  letter-spacing: 0.8px;
+  word-spacing: 0.6px;
+  line-height: 1.6;
+}
+
+.book-reveiw h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.review-detail {
+  padding: 30px 0px;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.bookInfo-detail {
+  margin-top: -105px;
+  padding: 0 0 0 190px;
+}
+
+.book-like {
+  float: right;
+  top: 50px;
+}
+
+.book-desc {
+  padding: 20px 0;
+}
+
+.rating-render-box {
+  width: 120px;
+  height: 20px;
+  padding: 6px 6px 8px 10px;
+  margin: 3px;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+.rating-render-box01 {
+  width: 120px;
+  height: 20px;
+  padding: 6px 6px 8px 10px;
+  margin: 3px;
+  font-size: 14px;
+}
+
+.book_review_list_review {
+  flex: 1 1 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  width: 450px;
+}
+
+@media ( max-width: 768px ){
+  .book-detail-book-title b{
+    display: block;
+    margin: 20px 0 0 0px;
+    padding: 0;
+  }
+  .bookInfo-wrap{
+    width: 70%;
+  }
+  .bookInfo-detail {
+    margin: 0;
+    padding: 0;
+  }
+  .book-detail-book-title img {
+    width: 130px;
+    padding: 0;
+    margin: 0;
+  }
+  .book-reveiw {
+    display: none;
+  }
+  .rating-render-box {
+    display: none;
+  }
+}

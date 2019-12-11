@@ -1,0 +1,16 @@
+.addBookbutton {
+  width: 120px;
+  height: 174px;
+  margintop: 10px;
+  backgroundcolor: white;
+  border: dashed;
+  bordercolor: rgb(121, 144, 168);
+}
+
+progress::-webkit-progress {
+  width: 100%;
+}
+progress::-webkit-progress-value {
+  background-color: rgb(121, 144, 168) !important;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.readCuration {
+  padding-top: 150px;
+}
+
+.readCuration_header {
+  padding-left: 20%;
+  padding-right: 10%;
+}
+
+.readCuration_header_user :hover {
+  cursor: pointer;
+}
+
+.readCuration_contents {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.readCuration_bookslist {
+  margin-right: 15%;
+  display: table;
+  width: 100%;
+}
+
+.readcuration_bookentry {
+  margin-right: 80px;
+  position: relative;
+}
+
+.heart {
+  color: #f34e4ee7;
+  fill: #f34e4ee7;
+}
+
+.heart path {
+  fill: #f34e4ee7;
+  color: #f34e4ee7;
+}
+
+.readCuration_cropped {
+  display: inline-block;
+  margin-right: 5%;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.reviewentry_cropped {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,88 @@
+.main {
+  padding-top: 6%;
+  padding-left: 14%;
+  padding-right: 14%;
+  background: linear-gradient(180deg, rgb(248, 248, 248) 73%, #fff 27%);
+}
+/* 
+.parallax {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+} */
+
+.section :hover {
+  text-decoration: none;
+}
+
+.section_wrapper {
+  width: 100%;
+}
+
+.section {
+  display: inline-block;
+}
+
+.section h2 {
+  font-size: 1.5em;
+}
+
+.main_recocollection_div {
+  text-align: center;
+}
+
+.main_recocollection_title {
+  font-family: "Nanum Myeongjo", serif;
+  display: inline-block;
+}
+
+.main_review_entry_content {
+  color: rgb(87, 85, 85);
+}
+
+.main_review_entry_author {
+  color: "gray";
+}
+
+.main_review_list_start {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.main-card{
+  width: 200px;
+}
+
+.main_review_list_review {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 11px;
+}
+
+/* .crop {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+} */
+
+.crop {
+  text-align: center;
+}
+
+.cropped {
+  margin-top: 10%;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+@media ( max-width: 768px ){
+  .main_review_list_review {
+    padding: 0;
+    width: 300px;
+    display: block;
+    flex-direction: column;
+  }
+}
